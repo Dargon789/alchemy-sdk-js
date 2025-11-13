@@ -67,7 +67,7 @@
     "@ethersproject/units": "^5.7.0",
     "@ethersproject/wallet": "^5.8.0",
     "@ethersproject/web": "^5.7.0",
-    "@solana/web3.js": "^1.87.6",
+    "@solana/web3.js": "^1.98.4",
     "axios": "^1.8.3",
     "sturdy-websocket": "^0.2.1",
     "websocket": "^1.0.34"
