@@ -158,12 +158,16 @@ export const EthersNetwork = {
   [Network.BOTANIX_MAINNET]: 'botanix-mainnet',
   [Network.BOTANIX_TESTNET]: 'botanix-testnet',
   [Network.HUMANITY_MAINNET]: 'humanity-mainnet',
-  [Network.RISE_TESTNET]: 'rise-testnet'
+  [Network.RISE_TESTNET]: 'rise-testnet',
+  [Network.HYPERLIQUID_MAINNET]: 'hyperliquid-mainnet',
+  [Network.HYPERLIQUID_TESTNET]: 'hyperliquid-testnet',
+  [Network.PLASMA_MAINNET]: 'plasma-mainnet',
+  [Network.PLASMA_TESTNET]: 'plasma-testnet'
 };
 
 /**
  * Mapping of network names to their corresponding Ethers Network objects. These
- * networks are not yet supported by Ethers and are listed here to be overriden
+ * networks are not yet supported by Ethers and are listed here to be overridden
  * in the provider.
  */
 export const CustomNetworks: { [key: string]: NetworkFromEthers } = {
@@ -570,6 +574,22 @@ export const CustomNetworks: { [key: string]: NetworkFromEthers } = {
   'rise-testnet': {
     chainId: 0xaa39db,
     name: 'rise-testnet'
+  },
+  'hyperliquid-mainnet': {
+    chainId: 0x3e7,
+    name: 'hyperliquid-mainnet'
+  },
+  'hyperliquid-testnet': {
+    chainId: 0x3e6,
+    name: 'hyperliquid-testnet'
+  },
+  'plasma-mainnet': {
+    chainId: 0x2611,
+    name: 'plasma-mainnet'
+  },
+  'plasma-testnet': {
+    chainId: 0x2612,
+    name: 'plasma-testnet'
   }
 };
 
