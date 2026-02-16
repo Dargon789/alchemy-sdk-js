@@ -68,7 +68,7 @@
     "@ethersproject/wallet": "^5.7.0",
     "@ethersproject/web": "^5.7.0",
     "@solana/web3.js": "^1.87.6",
-    "axios": "^1.12.0",
+    "axios": "^1.13.5",
     "sturdy-websocket": "^0.2.1",
     "websocket": "^1.0.34"
   },
@@ -82,7 +82,7 @@
     "@typescript-eslint/parser": "^5.16.0",
     "axios-mock-adapter": "^1.22.0",
     "dotenv": "^16.0.3",
-    "eslint": "^8.11.0",
+    "eslint": "^10.0.0",
     "eslint-plugin-import": "^2.25.4",
     "eslint-plugin-unused-imports": "^2.0.0",
     "husky": "^7.0.0",
